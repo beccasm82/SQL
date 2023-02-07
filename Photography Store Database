@@ -1,0 +1,11 @@
+CREATE TABLE photography (id INTEGER PRIMARY KEY, brand TEXT, camera TEXT, cost INTEGER, zoom INTEGER);
+
+INSERT INTO photography VALUES (1, "Canon", "portrait", 500, 1.5);
+INSERT INTO photography VALUES (2, "Nikon", "wide range", 450, 2.3);
+INSERT INTO photography VALUES (3, "Sony", "weather proof", 675, 2.0);
+INSERT INTO photography VALUES (4, "Fujifilm", "point and shoot", 209, 2.5);
+INSERT INTO photography VALUES (5, "Sigma", "DSLR", 595, 3.2);
+INSERT INTO photography VALUES (6, "Sony", "mirrorless", 821, 2.1);
+
+--display the database ordered by price.
+SELECT * FROM photography ORDER BY cost
