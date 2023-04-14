@@ -5,7 +5,16 @@ INSERT INTO photography VALUES (2, "Nikon", "wide range", 450, 2.3);
 INSERT INTO photography VALUES (3, "Sony", "weather proof", 675, 2.0);
 INSERT INTO photography VALUES (4, "Fujifilm", "point and shoot", 209, 2.5);
 INSERT INTO photography VALUES (5, "Sigma", "DSLR", 595, 3.2);
-INSERT INTO photography VALUES (6, "Sony", "mirrorless", 821, 2.1);
+INSERT INTO photography VALUES (6, "Sony", "mirrorless", 1598, 3.5);
+INSERT INTO photography VALUES (7, "Canon", "DSLR", 429, 3.5);
+INSERT INTO photography VALUES (8, "Fujifilm", "mirrorless", 1699, 3.69);
+INSERT INTO photography VALUES (9, "Canon", "powershot", 657, 1.8);
+INSERT INTO photography VALUES (10, "Canon", "full frame", 3699, 4.0);
+INSERT INTO photography VALUES (11, "Sony", "full frame", 2498, 3.68);
+INSERT INTO photography VALUES (12, "Nikon", "full frame", 1996, 3.6);
+INSERT INTO photography VALUES (13, "Fujifilm", "medium format", 5999, 3.69);
+INSERT INTO photography VALUES (14, "Hasseblad", "medium format", 8199, 32.9);
+INSERT INTO photography VALUES (15, "Kodak", "powershot", 99, 2.3);
 
 --display the database ordered by price.
 SELECT * FROM photography ORDER BY cost
